@@ -1,0 +1,32 @@
+.box-play {
+    width: 128px;
+    height: 160px;
+    background-color: #DDD;
+    background-image: url(../img/taylor-swift.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box-play .overlay {
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 50px;
+    color: #DDD;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.box-play .overlay i {
+    transform: scale(0.5);
+    transition: all 0.3s;
+}
+.box-play:hover .overlay i {
+    transform: scale(1);
+}
+.box-play:hover .overlay {
+    opacity: 1;
+}
