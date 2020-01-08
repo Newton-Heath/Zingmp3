@@ -1,0 +1,1 @@
+This is simulation of Zing mp3 website
