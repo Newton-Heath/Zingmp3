@@ -1,6 +1,6 @@
 .box-play {
-    width: 128px;
-    height: 160px;
+    width: 160;
+    height: 200px;
     background-color: #DDD;
     background-image: url(../img/taylor-swift.jpg);
     background-size: cover;
@@ -29,4 +29,15 @@
 }
 .box-play:hover .overlay {
     opacity: 1;
+}
+.fa-box-play {
+    width: 160px;
+    height: 250px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+.fa-box-play p{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 8px;
 }
