@@ -3,8 +3,8 @@ body {
 }
 
 .menu {
-    display: flex;
     padding: 0;
+    display: flex;
     list-style: none;
     justify-content: center;
 }
