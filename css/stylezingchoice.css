@@ -1,0 +1,32 @@
+.zingchoice-singer {
+    height: 140px;
+    width: 280px;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: space-around;
+}
+.zingchoice-singer .avatar-singer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.zingchoice-singer .name-singer p{
+    text-align: right;
+    font-size: 13px;
+}
+.zingchoice-singer .name-singer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.zingchoice-singer .name-singer a {
+    font-size: 16px;
+    padding: 0;
+}
+.zingchoice-singer .name-singer #zingchoice {
+    color: white;
+    background: rgb(125,1,97);
+    background: linear-gradient(90deg, rgba(125,1,97,0.6783088235294117) 0%, rgba(194,21,251,0.4654236694677871) 100%);
+}
