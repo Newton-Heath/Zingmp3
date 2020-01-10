@@ -33,10 +33,6 @@
 .fa-box-play {
     width: 160px;
     height: 250px;
+    
     box-sizing: border-box;
-}
-.fa-box-play p{
-    display: flex;
-    align-items: flex-end;
-    margin-top: 8px;
 }
