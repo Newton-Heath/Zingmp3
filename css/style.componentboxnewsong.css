@@ -1,0 +1,12 @@
+.component-box-newsong {
+    display: flex;
+    width: 1100px;
+    height: 160px;
+    background-color: #efeeee6e;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+/* .component-box-newsong .box-newsong {
+    margin-right: 20px;
+} */

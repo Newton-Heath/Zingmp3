@@ -1,0 +1,9 @@
+.box-singer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-top: 10px;
+}
+.box-singer .zingchoice-singer {
+    margin-right: 85px;
+}

@@ -1,0 +1,53 @@
+.box-newsong {
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+}
+.box-newsong .box-singer {
+    width: 100px;
+    height: 140px;
+    background-image: url(../img/taylor-swift.jpg);
+    background-size: cover;
+}
+.box-newsong .box-singer .play-icon {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 50px;
+    color: #DDD;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.box-newsong .box-singer .play-icon i{
+    transform: scale(0.5);
+    transition: all 0.3s;
+}
+.box-newsong .box-singer:hover .play-icon i{
+    transform: scale(1);
+}
+.box-newsong .box-singer:hover .play-icon {
+    opacity: 1;
+}
+.text-newsong p {
+    padding-left: 10px;
+}
+.text-newsong {
+    position: relative;
+    padding-right: 80px;
+}
+.text-newsong .number{
+    position: absolute;
+    bottom: -28px;
+    font-size: 36px;
+}
+.text-newsong .day {
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    color: #E6E6E6;
+}
